@@ -1,0 +1,8 @@
+C:\Users\12017688533\SistemaEventos\Sistema-de-Gerenciamento-de-Eventos-ASP.NET-Core-MVC-\SistemaEventos\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\12017688533\SistemaEventos\Sistema-de-Gerenciamento-de-Eventos-ASP.NET-Core-MVC-\SistemaEventos\obj\Debug\net10.0\SistemaEventos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12017688533\SistemaEventos\Sistema-de-Gerenciamento-de-Eventos-ASP.NET-Core-MVC-\SistemaEventos\obj\Debug\net10.0\SistemaEventos.AssemblyInfoInputs.cache
+C:\Users\12017688533\SistemaEventos\Sistema-de-Gerenciamento-de-Eventos-ASP.NET-Core-MVC-\SistemaEventos\obj\Debug\net10.0\SistemaEventos.AssemblyInfo.cs
+C:\Users\12017688533\SistemaEventos\Sistema-de-Gerenciamento-de-Eventos-ASP.NET-Core-MVC-\SistemaEventos\obj\Debug\net10.0\SistemaEventos.csproj.CoreCompileInputs.cache
+C:\Users\12017688533\SistemaEventos\Sistema-de-Gerenciamento-de-Eventos-ASP.NET-Core-MVC-\SistemaEventos\obj\Debug\net10.0\SistemaEventos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\12017688533\SistemaEventos\Sistema-de-Gerenciamento-de-Eventos-ASP.NET-Core-MVC-\SistemaEventos\obj\Debug\net10.0\SistemaEventos.RazorAssemblyInfo.cache
+C:\Users\12017688533\SistemaEventos\Sistema-de-Gerenciamento-de-Eventos-ASP.NET-Core-MVC-\SistemaEventos\obj\Debug\net10.0\SistemaEventos.RazorAssemblyInfo.cs

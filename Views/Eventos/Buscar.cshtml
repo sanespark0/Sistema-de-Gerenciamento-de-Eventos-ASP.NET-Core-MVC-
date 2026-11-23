@@ -1,0 +1,60 @@
+@model GerenciadorEventos.ViewModels.BuscaEventoViewModel
+
+@{
+    ViewData["Title"] = "Buscar Eventos";
+}
+
+<h2>Buscar Eventos</h2>
+
+<form asp-action="Buscar" method="post" class="mb-4">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label asp-for="NomeBusca">Nome</label>
+            <input asp-for="NomeBusca" class="form-control" />
+        </div>
+        <div class="form-group col-md-3">
+            <label asp-for="LocalBusca">Local</label>
+            <input asp-for="LocalBusca" class="form-control" />
+        </div>
+        <div class="form-group col-md-3">
+            <label asp-for="DataInicial">A partir de</label>
+            <input asp-for="DataInicial" type="date" class="form-control" />
+        </div>
+        <div class="form-group col-md-2 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary">Pesquisar</button>
+        </div>
+    </div>
+</form>
+
+@if (Model.Resultados == null || !Model.Resultados.Any())
+{
+    <div class="alert alert-info">Nenhum evento encontrado com os critérios informados.</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Local</th>
+                <th>Data</th>
+                <th>Vagas</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model.Resultados)
+            {
+                <tr>
+                    <td>@e.Nome</td>
+                    <td>@e.Local</td>
+                    <td>@e.DataEvento.ToString("dd/MM/yyyy")</td>
+                    <td>@e.QuantidadeVagas</td>
+                    <td>@e.ValorIngresso.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
